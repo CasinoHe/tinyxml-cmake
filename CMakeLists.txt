@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16.0)
 
 project(tinyxml)
 
-set(TINYXML_ROOT ${CMAKE_SOURCE_DIR})
+set(TINYXML_ROOT ${CMAKE_CURRENT_SOURCE_DIR})
 
 set(SRC_FILES
   ${TINYXML_ROOT}/tinyxml.cpp
