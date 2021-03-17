@@ -16,5 +16,5 @@ if (TINYXML_USE_STL)
   target_compile_definitions(${PROJECT_NAME} PRIVATE -DTIXML_USE_STL)
 endif()
 
-add_library(${PROJECT_NAME} STATIC ${SRC_FILES})
 add_library(${PROJECT_NAME} SHARED ${SRC_FILES})
+add_library(${PROJECT_NAME}Static STATIC ${SRC_FILES})
